@@ -367,7 +367,7 @@ a {
   left: 0;
   right: 0;
   overflow: hidden;
-  padding: 2% 0;
+  padding: 1% 0;
 }
 
 .header .container {
@@ -482,7 +482,7 @@ body.load-withoutscroll {
 
 .page {
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 50px 0;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -579,27 +579,6 @@ hr {
 .ico {
   width: 260px;
   height: 260px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 15px auto 25px;
-  font-weight: normal;
-  font-size: 30px;
-}
-
-.ico2 {
-  width: 560px;
-  height: 560px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1355,7 +1334,7 @@ p + .btn {
 
   .page {
     background-size: 170% auto;
-    padding: 50px 0;
+    padding: 40px 0;
   }
 
   .page:last-child {
@@ -1448,4 +1427,11 @@ p + .btn {
   .page *::-ms-backdrop, .page {
     height: 100vh;
   }
+}
+
+.column {
+  float: center;
+  width: 50%;
+  height: 100%;
+  padding: 5px;
 }
