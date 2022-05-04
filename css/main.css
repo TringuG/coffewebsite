@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,11 +31,6 @@ input[type=tel], input[type=url], input[type=password], input[type=text], input[
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
-}
-
-img {
-  vertical-align: middle;
-  max-width: 100%;
 }
 
 ol, ul {
@@ -907,7 +902,7 @@ p + .btn {
   height: 200px;
 }
 
-.reviews-slider .image img {
+.reviews-slider .image   {
   margin: auto;
   display: block;
   border-radius: 50%;
@@ -1029,7 +1024,7 @@ p + .btn {
   padding: 15px 0 15px 30px;
 }
 
-.gallery-cat img {
+.gallery-cat   {
   width: 100%;
   display: block;
 }
@@ -1193,7 +1188,7 @@ p + .btn {
     padding-top: 20px;
   }
 
-  .image-right img {
+  .image-right   {
     width: 100%;
     display: block;
     margin: auto;
