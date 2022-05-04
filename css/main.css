@@ -577,8 +577,8 @@ hr {
 }
 
 .ico {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   border: 8px solid white;
   display: -webkit-flex;
   display: -ms-flexbox;
