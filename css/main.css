@@ -579,7 +579,22 @@ hr {
 .ico {
   width: 140px;
   height: 140px;
-  border-radius: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 15px auto 25px;
+  font-weight: normal;
+  font-size: 30px;
 }
 
 .text-center p {
